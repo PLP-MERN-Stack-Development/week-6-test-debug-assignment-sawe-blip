@@ -9,7 +9,7 @@ module.exports = {
       testEnvironment: 'node',
       testMatch: ['<rootDir>/server/tests/**/*.test.js'],
       moduleFileExtensions: ['js', 'json', 'node'],
-      setupFilesAfterEnv: ['<rootDir>/server/tests/setup.js'],
+      //setupFilesAfterEnv: ['<rootDir>/server/tests/setup.js'],
       coverageDirectory: '<rootDir>/coverage/server',
       collectCoverageFrom: [
         'server/src/**/*.js',
